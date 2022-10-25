@@ -1,0 +1,39 @@
+# IMPORT random library
+import random
+
+# SET number1 to default value
+number1=" "
+
+# SET the counter of player wins to zero
+win=0
+
+# BEGIN loop
+while(number1!="q"):
+    #GET random number from computer
+    compNumber = str(random.randint(0, 101))
+    # PRINT computer output, this is to test our logic
+    print(compNumber)
+
+    #GET user number
+    #ASSUME user inputs an integer number 
+   
+    print("Print q to end the program or anything else to continue: ")
+    number1 = input("Enter your choice: ")
+    
+    #CHECK for a winner
+    if number1 == "q":
+        print ("End of game...")
+    elif number1!=compNumber:
+        print("Wrong guess!")
+        print("Next Turn:")
+    else:
+        win=win+1
+        print("Player's total wins: "+ str(win))
+        print("nice guess! you're right")
+        print("Next Turn: ")
+
+    
+    
+
+
+    
