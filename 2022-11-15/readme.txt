@@ -9,5 +9,6 @@
 	- Boolean and Relational Operators
 	- Modular Programming using functions
 	- Loops (While Loop)
+	- Assignment 3 discussion
 
 - In this PASS Session the students wrote the code instead of just the PASS instructor
